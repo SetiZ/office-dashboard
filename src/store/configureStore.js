@@ -19,7 +19,6 @@ export default function configureStore(initialState = INITIAL_STATE) {
   if (module.hot) {
     module.hot.accept('../reducers', () => {
       const nextRootReducer = combineReducers(require('../reducers'));
-      console.log('nextRootReducer', nextRootReducer);
       store.replaceReducer(nextRootReducer);
     });
   }

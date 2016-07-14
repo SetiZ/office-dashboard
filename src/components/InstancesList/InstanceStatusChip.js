@@ -18,6 +18,4 @@ InstanceStatusChip.propTypes = {
   className: PropTypes.string,
 };
 
-console.log('style', withStyles(s)(InstanceStatusChip));
-
 export default withStyles(s)(InstanceStatusChip);

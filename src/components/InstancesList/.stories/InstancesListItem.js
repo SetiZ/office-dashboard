@@ -4,7 +4,7 @@ import { fromJS } from 'immutable';
 import InsertCssContext from '../../../../.storybook/InsertCssContext';
 import Provider from '../../../../.storybook/Provider';
 
-import InstancesListItemContainer from '../../../containers/InstancesListItem';
+import InstancesListItemContainer from '../../../containers/InstancesListItemContainer';
 
 const instance = fromJS({ id: '1', manager: 'cbellino', comment: 'Molestias fugit inventore corporis' });
 const instanceWithoutManager = fromJS({ id: '1', comment: 'Molestias fugit inventore corporis' });

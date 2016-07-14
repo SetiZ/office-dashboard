@@ -3,7 +3,7 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import { List } from 'immutable';
 
 import { InstancesPropType } from './PropTypes';
-import InstancesListItemContainer from '../../containers/InstancesListItem';
+import InstancesListItemContainer from '../../containers/InstancesListItemContainer';
 import s from './InstancesList.css';
 
 const instancesNodes = (instances) => (
