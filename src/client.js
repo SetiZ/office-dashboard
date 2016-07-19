@@ -8,6 +8,7 @@
  */
 
 import 'babel-polyfill';
+import 'whatwg-fetch';
 import ReactDOM from 'react-dom';
 import FastClick from 'fastclick';
 import UniversalRouter from 'universal-router';

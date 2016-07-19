@@ -28,7 +28,7 @@
     "jade": "1.11.0",
     "jsonwebtoken": "7.0.0",
     "markdown-it": "6.0.5",
-    "node-fetch": "1.5.3",
+    "node-fetch": "^1.5.3",
     "normalize.css": "4.1.1",
     "passport": "0.3.2",
     "passport-facebook": "2.1.1",
@@ -44,7 +44,7 @@
     "source-map-support": "0.4.0",
     "sqlite3": "3.1.4",
     "universal-router": "1.2.2",
-    "whatwg-fetch": "1.0.0"
+    "whatwg-fetch": "^1.0.0"
   },
   "devDependencies": {
     "@kadira/storybook": "^1.36.0",
